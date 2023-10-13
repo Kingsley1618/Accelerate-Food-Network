@@ -22,7 +22,7 @@ initial={{opacity:0, x:-30}}
 whileInView={{opacity:1, x: 0}}
 viewport= {{once:true}} 
  className={styles.text}>Your support can make all the difference in the lives of those we serve. Consider making a donation or volunteering your time to support 
-AFEN's mission to combat hunger and improve food security across Nigeria.</motion.p>
+AFEN&apos;s mission to combat hunger and improve food security across Nigeria.</motion.p>
 
 
 <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-5 gap-y-6 mt-5 grid-rows-auto mx-auto'>
