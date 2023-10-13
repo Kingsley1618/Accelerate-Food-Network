@@ -1,0 +1,18 @@
+.headerText {
+    font-size: calc(1.2rem + 1.5vw);
+    color: white;
+    font-weight: bold;
+}
+
+.text {
+    font-size: calc(.7rem + .5vw);
+    color: rgb(229,224,223);
+    margin: 17px 0px 0px 0px;
+}
+
+.subtitle {
+    font-size: calc(1rem + .7vw);
+    color: rgb(229,224,223);
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+}

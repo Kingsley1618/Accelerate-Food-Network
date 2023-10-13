@@ -15,13 +15,57 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+*{
+  scroll-behavior: smooth;
+}
+/*media query for different screens*/
+*::-webkit-scrollbar {
+  width: 7px;
+  
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+*::-webkit-scrollbar-thumb {
+  background-color:brown;
+  border-radius: 20px;
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px){
+  .container {
+   max-width: 700px;
+ width: 100%;
+ margin: auto;
+  }
+}
+
+/*Tablets/small desktop*/
+@media screen and (min-width: 768px) and (max-width:991px){
+  .container {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
+/*Laptops*/
+@media screen and (min-width: 992px) and (max-width:1199px){
+  .container {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/*Large screen, Monitors*/
+@media screen and (min-width: 1200px){
+  .container {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+  }
 }
